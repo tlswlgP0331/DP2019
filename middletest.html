@@ -1,6 +1,8 @@
 <!DOCTYPE HTML>
 <html>
     <head>
+        <title>Jean-Paul Sartre</title>
+        
         <style>
         #a1{
                 font-size: 40px; /*글씨크기*/
@@ -26,14 +28,20 @@
                 /* text-decoration: underline; /*글씨 꾸밈*/
                 font-weight:bold; /*글씨 두께*/
             }
+        #body{text-align: center;}
+
 
         </style>
+    
     </head>
-    <body>
-        <form>
+    
+        <body>
             <input type="submit" value="HOME" />
+            <div id="body">     
+        
+        <form>
             <br /> <br /> <br /> 
-            <label for="id" input id="a1">장 폴 샤를 에마르 사르트르</label>
+            <label for="id" input id="a1">장 폴 샤를 에마르 사르트르</label> <br /> 
             (Jean-Paul Charles Aymard Sartre) <br /> <br /> 
             
             <img src= "1def245f3cc9ab016b881efa6b053b38.jpg" /> <br /> <br />
@@ -54,7 +62,7 @@
             <!-- table 도표-->
                     <!-- table, tr 행 한줄 , td 열 한칸-->
                     <!-- summary요약, caption 표제-->
-                    <table summary="표의요약, 학생명단">
+                    <table align="center" summary="표의요약, 학생명단">
                             <caption></caption>
                             <!-- thead, tbody, tfoot-->
                 <thead>
@@ -97,26 +105,59 @@
                   
                 </tbody>    
             </table>
-
-                
-
         
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-        </form>   
-           
-            <br />    <a href="index.html" target="_blank">Index로 돌아가기</a>
-    </body>
+            <style>
+                    table, tr, td{
+                        border: solid 1px black;
+                    }
+                </style>
+                    <!-- table 도표-->
+                    <!-- table, tr 행 한줄 , td 열 한칸-->
+                    <!-- summary요약, caption 표제-->
+                    <table align="center" summary="표의요약, 학생명단">
+                            <caption></caption>
+                            <!-- thead, tbody, tfoot-->
+                <thead>
+                    <tr>
+                        <!-- scope = col, row -->
+                        <th schope="col">주요 작품</th>
+                    </tr>
+                </thead>    
 
+            <tfoot>
+                    <td>
+            <ul>
+                    <li><구토> (1938)</li>
+                    <li><벽> (1939)</li>
+                    <li><파리떼> (1943)</li>
+                    <li><존재와 무> (1943)</li>
+                    <li><닫힌 방> (1944)</li>
+                    <li><실존주의는 휴머니즘이다> (1945)</li>
+                    <li><더러운 손> (1948)</li>
+                    <li><변증법적 이성 비판> (1960)</li>
+                    <li><말> (1964)</li>
+            </ul>
+        </td>
+            </tfoot>
+            </form>   
+    </div> 
+    <footer>
+            <br /> <hr /> <br />    <a href="index.html" target="_blank">Index로 돌아가기</a>
+        </footer> 
+    </body>       
+    
+   
 
 </html>
+
+
+
+
+텍스트 요소(Strong, em, ins, del, sup, sub)
+◦ 문단 요소(h1~h6, br, hr)
+◦ 목록 요소(ul, ol, li, dl, dt, dd)
+◦ 테이블 요소(table, tr, td, th, caption, summary, thead, tfoot, tbody, scope)
+◦ 그룹화 요소(div, span)
+◦ 폼 요소 (form, input, select, button, submit)
+◦ HTML5 전용 태그(section, nav, article, aside, header, footer)
+◦ HTML5 미디어 태그(canvas, audio, video)
