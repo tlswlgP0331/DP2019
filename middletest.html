@@ -2,74 +2,128 @@
 <html>
     <head>
         <title>Jean-Paul Sartre</title>
+        <meta charset="utf-8" />
+        <meta name="author" content="신지혜" />
+        <meta name="keywords" content="HTML, 콘텐츠 프로그래밍, 계원" />
         
         <style>
         #a1{
-                font-size: 40px; /*글씨크기*/
+                font-size: 50px; /*글씨크기*/
                 color: black; /*글씨 색깔*/
                 /* text-decoration: underline; /*글씨 꾸밈*/
                 font-weight: bold; /*글씨 두께*/
             }
         #a2{
                 font-size: 20px; /*글씨크기*/
-                color: black; /*글씨 색깔*/
+                color: white; /*글씨 색깔*/
                 /* text-decoration: underline; /*글씨 꾸밈*/
                 font-weight: bold; /*글씨 두께*/
             }
         #a3{
                 font-size: 12px; /*글씨크기*/
-                color: black; /*글씨 색깔*/
+                color: white; /*글씨 색깔*/
                 /* text-decoration: underline; /*글씨 꾸밈*/
                 font-weight:lighter; /*글씨 두께*/
             }
         #a4{
-                font-size: 30px; /*글씨크기*/
+                font-size: 100px; /*글씨크기*/
                 color: black; /*글씨 색깔*/
                 /* text-decoration: underline; /*글씨 꾸밈*/
                 font-weight:bold; /*글씨 두께*/
             }
-        #body{text-align: center;}
+        #a5{
+                font-size: 18px; /*글씨크기*/
+                color: black; /*글씨 색깔*/
+                /* text-decoration: underline; /*글씨 꾸밈*/
+                font-weight:bold; /*글씨 두께*/
+            }    
 
-
+        #a13{
+                font-size: 10px; /*글씨크기*/
+                color: black; /*글씨 색깔*/
+                /* text-decoration: underline; /*글씨 꾸밈*/
+                font-weight:lighter; /*글씨 두께*/
+            }
+        #center{text-align: center;}         
         </style>
-    
+        
     </head>
     
-        <body>
-            <input type="submit" value="HOME" />
-            <div id="body">     
-        
-        <form>
-            <br /> <br /> <br /> 
-            <label for="id" input id="a1">장 폴 샤를 에마르 사르트르</label> <br /> 
-            (Jean-Paul Charles Aymard Sartre) <br /> <br /> 
-            
-            <img src= "1def245f3cc9ab016b881efa6b053b38.jpg" /> <br /> <br />
+    <body>
+   
+        <style type="text/css">
+            .space{
+            height:200px;
+            }
+            #section1{background-color: white;}
+            #section2{background-color: white;}
+            #section3{background-color: white;}
+            #section4{background-color: white;}
+            #section5{background-color: white;}
+            #section6{background-color: black;}
+        </style>
 
-            <label for="id" input id="a2">"존재는 본질에 앞선다(L'existence précède l'essence)" <br />
-                </label>
-            <label for="id" input id="a3">실존주의 사상을 대표하는 프랑스의 작가이자 철학자인 사르트르의 유명한 말이다. <br /> 사르트르는 누구인가?
-                </label>   <br /> <br />  <br />
-            <label for="id" input id="a4">1. 사르트르는 누구인가 
-                </label>   <br /> <br /> 
-               
-                <style>
-                    table, tr, td{
-                        border: solid 1px black;
-                    }
-                </style>
+        <a href="middletest.html" target="_blank">HOME</a>
+
+        <details open>
+            <summary>MENU</summary>
+            
+        <div id="section1"> 
+   
+        <li><a href="#section2">About</a></li>
+        <li><a href="#section3">Image</a></li>
+        <li><a href="#section4">Vedio</a></li>
+        <li><a href="#section5">Review</a></li>
+        </details> <br /> <br />
+        
+        <label for="id" input id="a11">ID</label> 
+        <input name="id" placeholder="아이디를 입력하세요" /> 
+        <label for="password" input id="a12">Passward</label> 
+        <input name="password" placeholder="비밀번호를 입력하세요" /> 
+        <input type="submit" value="Login" />
+
+        <a href="form02.html#" target="_blank">Join</a> <br /> <br /> 
+
+        <audio controls>
+                <source src="media/Camille Saint-Saens-03-Allegro Appassionato, Op. 70.mp3" type="audio/mpeg" />
+            </audio>
+            <br />   
+
+        <div id="center"> <br /> <br /> <br /> <br />
+
+        <label for="id" input id="a1">장 폴 샤를 에마르 사르트르</label> <br /> 
+            <b>(Jean-Paul Charles Aymard Sartre)</b> <br /> <br /> <br />
+        
+        <div id="section6">     
+        <img src= "1def245f3cc9ab016b881efa6b053b38.jpg" /> <br /> <br /> <br /> <br /> 
+
+        <label for="id" input id="a2">" 존재는 본질에 앞선다 (L'existence précède l'essence) " <br /> <br />
+            </label>
+        <label for="id" input id="a3"><strong>실존주의 사상을 대표하는 프랑스의 작가이자 철학자인 사르트르의 유명한 말이다. <br /> 사르트르는 누구인가?</strong>
+            </label> <br /> <br /> <br /> </div>
+        </div>
+        <div id="section2">     
+        <label for="id" input id="a4">About 
+            </label>  
+
+        </div>       
+            <style>
+                table, tr, td{
+                    border: solid 1px black;
+                }
+            </style>
     
-            <!-- table 도표-->
-                    <!-- table, tr 행 한줄 , td 열 한칸-->
-                    <!-- summary요약, caption 표제-->
-                    <table align="center" summary="표의요약, 학생명단">
-                            <caption></caption>
-                            <!-- thead, tbody, tfoot-->
+        <!-- table 도표-->
+        <!-- table, tr 행 한줄 , td 열 한칸-->
+        <!-- summary요약, caption 표제-->
+            <table align="lighter" summary="표의요약, 학생명단">
+                <caption></caption>
+                <!-- thead, tbody, tfoot-->
                 <thead>
                     <tr>
                         <!-- scope = col, row -->
                         <th schope="col">장 폴 사르트르</th>
-                     </tr>
+                    </tr>
                 </thead>    
                 
                 <tbody>
@@ -102,62 +156,114 @@
                             <td>프랑스</td>
                            
                     </tr>
-                  
+                    <br /> <br />
+                    <style>
+                        table, tr, td{
+                            border: solid 1px black;
+                        }
+                    </style>
+                            <!-- table 도표-->
+                            <!-- table, tr 행 한줄 , td 열 한칸-->
+                            <!-- summary요약, caption 표제-->
+                            <table align="lighter" summary="표의요약, 학생명단">
+                                    <caption></caption>
+                                    <!-- thead, tbody, tfoot-->
+                                    <br /> 
+                        <thead>
+                            <tr>
+                                <!-- scope = col, row -->
+                                <th schope="col">주요 작품</th>
+                            </tr>
+                        </thead>    
+        
+                <td>
+                    <ul>
+                        <li><구토> (1938)</li>
+                        <li><벽> (1939)</li>
+                        <li><파리떼> (1943)</li>
+                        <li><존재와 무> (1943)</li>
+                        <li><닫힌 방> (1944)</li>
+                        <li><실존주의는 휴머니즘이다> (1945)</li>
+                        <li><더러운 손> (1948)</li>
+                        <li><변증법적 이성 비판> (1960)</li>
+                        <li><말> (1964)</li>
+                    </ul>
+                </td>  
                 </tbody>    
             </table>
-        
-            <style>
-                    table, tr, td{
-                        border: solid 1px black;
-                    }
-                </style>
-                    <!-- table 도표-->
-                    <!-- table, tr 행 한줄 , td 열 한칸-->
-                    <!-- summary요약, caption 표제-->
-                    <table align="center" summary="표의요약, 학생명단">
-                            <caption></caption>
-                            <!-- thead, tbody, tfoot-->
-                <thead>
-                    <tr>
-                        <!-- scope = col, row -->
-                        <th schope="col">주요 작품</th>
-                    </tr>
-                </thead>    
+        </form>   
+        </div> 
 
-            <tfoot>
-                    <td>
-            <ul>
-                    <li><구토> (1938)</li>
-                    <li><벽> (1939)</li>
-                    <li><파리떼> (1943)</li>
-                    <li><존재와 무> (1943)</li>
-                    <li><닫힌 방> (1944)</li>
-                    <li><실존주의는 휴머니즘이다> (1945)</li>
-                    <li><더러운 손> (1948)</li>
-                    <li><변증법적 이성 비판> (1960)</li>
-                    <li><말> (1964)</li>
-            </ul>
-        </td>
-            </tfoot>
-            </form>   
-    </div> 
-    <footer>
-            <br /> <hr /> <br />    <a href="index.html" target="_blank">Index로 돌아가기</a>
-        </footer> 
+    <br />
+
+    <p>
+    <label for="id" input id="a5"> <생애> </label>  <br />     
+    장 폴 사르트르(Jean-Paul Sartre)는 1905년 6월 21일 파리에서 태어나 1980년 4월 15일에 사망했다. <br />
+    그가 왕성하게 활동하던 시기인 1945년부터 1970년대 말까지 프랑스의 지식인들과 정치계에 큰 영향을 끼쳤다. <br />
+    철학서와 소설, 연극, 영화시나리오, 문학비평, 정치평론 등 다양한 글을 쓴 작가이며, 잡지 <현대Les Temps modernes> <br />
+    (1945)의 창간자이자 편집장이기도 한 사르트르는 1950년대 프랑스 공산당과 매우 가까이 지냈고, 이후로는 레닌주의 사상을 <br />
+    가진 당대 좌파와, 1970년대에는 특히 마오이스트와의 관련성을 띤, 정치 참여적인 문학과 철학 작품들로 유명하다. 사르트르는 <br />
+    자신의 어린 시절에서 열한 살 때까지의 자신의 삶을 그려낸 자서전 <말>(1964)을 발표하고 그 해 노벨 문학상 수상자로 선정 되었으나 <br />
+    수상을 거절한 것으로 유명하다. 그는 신문 <리베라시옹>창간에도 기여했는데, 신문 발행을 광고하고자 본인이 직접 길가에서 그 신문을 팔기까지 <br />
+    했다고 한다. 같은 프랑스의 작가이자 철학자인 시몬 드 보부아르와 계약 결혼 생활을 하였다. <br />
+    <br /> <br /> <br />
+    </p>    
+    </div>
+
+    <div id="section3"> 
+    <label for="id" input id="a4">Image
+        </label> <br /> <br />
+        <style type="text/css">
+            #nom{
+             width:968px; height:681px;
+             background-image: url("images/satre-de-beauvoir-rex-features.jpg");
+             background-size: 1000px;
+            }
+            #nom:hover{
+             background-image: url("images/gettyimages-52016211-1538159667.jpg");
+             background-size: 1000px;
+            }
+                 </style>
+           <div id="nom"></div>
+    </div>
+    
+    <br /> <br /> <br /> <br />
+    <div id="section4"> 
+        <br /> 
+        <label for="id" input id="a4">Vedio
+        </label>    
+
+        <br />
+        <video controls autoplay muted>
+            <source src="media/Sartre on Intellectualism.mp4" type="video/mp4" />
+        </video>
+    </div>
+    
+    <div id="section5"> 
+        <br /> <br /> <br /> <br /> <br />
+        <label for="id" input id="a4">Review
+        </label>    <br />  
+        입시할 때 윤리 과목을 공부했어서 평소 윤리를 좋아하고 관심이 많아 이번 프로그래밍 주제로 선정했습니다. <br /> 
+        배웠던 윤리사 중 사르트르의 실존주의 철학을 가장 공감하고 있습니다. 본질 이전에 실존한다는 그의 말은 사람의 <br /> 
+        인종, 성별, 성소수자, 장애를 떠나 자신의 본질은 자신이 정한다는 것이라 생각합니다. 이번 과제에서 그의 철학이 말하고<br /> 
+        싶은 바를 전달하고 싶었습니다. 그래서 공부하고 실습을 하는 과정이 재미있었고 완수할 수 있었습니다. 주제에 맞는 태그 요소를<br /> 
+        사용하려 하였고 디자인보다 정보 전달과 기능의 목적을 충실히 하려 했지만 텍스트의 위치와 자간, 컬러 등의 꾸밈 요소가 신경쓰였습니다. <br /> 
+        그래서 다음 기말 평가에는 지금의 부족한 실력을 향상시켜 완성도있는 웹페이지를 만들고 싶습니다.
+        <br /> 
+    </div>
+        
+    <a style="display:scroll;position:fixed;bottom:10px;right:5px;" href="#" title="top">TOP</a> </body> </html>
+    <br /> <br /> <br />
     </body>       
     
-   
+    <foot>
+        <div id="center">
+        <hr /> <br />    <a href="index.html" target="_blank">Index로 돌아가기</a> <br />
+        <label for="id" input id="a13" >Kaywon Univercity of Art&Design Digital Media Design 21961063 신지혜</label>
+        </div>
+    </foot> 
 
 </html>
 
 
 
-
-텍스트 요소(Strong, em, ins, del, sup, sub)
-◦ 문단 요소(h1~h6, br, hr)
-◦ 목록 요소(ul, ol, li, dl, dt, dd)
-◦ 테이블 요소(table, tr, td, th, caption, summary, thead, tfoot, tbody, scope)
-◦ 그룹화 요소(div, span)
-◦ 폼 요소 (form, input, select, button, submit)
-◦ HTML5 전용 태그(section, nav, article, aside, header, footer)
-◦ HTML5 미디어 태그(canvas, audio, video)
