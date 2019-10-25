@@ -5,26 +5,46 @@
         <meta charset="utf-8" />
         <style>
             div,header,nav,footer,h1,ul,li,h2{
-                margin:10px; /* 바깥여백: 10px; */
-                border: solid 1px black;
+                /* margin:10px; */ /* 바깥여백: 10px; */
+                /* border: solid 1px black; */
                 /* 경계선: 실선 1픽셀두께 검은색; */
             }
+            h1{
+                margin: 0px;
+            }
+            header>ul{
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            header>ul>li{
+                float:left; /* 둥둥떠다닌다 : 왼쪽기준 */
+                list-style: none; /*리스트모양(동그라미) : 없음*/
+                padding-left: 10px;
+                padding-right: 10px;
+                border-right: solid 2px gray;
+            }
+            header>ul>li:nth-last-child(5){
+                border: none;
+            }
+            .Clear { clear:both; height:0; overflow: hidden; }
+            .float_left{ float: left; }
         </style>
     </head>
     <body>
         <div id="wrap">
             <header>
-                <h1>
+                <h1 class="float_left">
                     <img src="images/layout1_head_logo.jpg" />
                 </h1>
-                <ul>
+                <ul class="float_left">
                     <li>ABOUT</li>
                     <li>SERVICES</li>
                     <li>WORKS</li>
                     <li>BLOG</li>
                     <li>CONTACT US</li>
+                    <div class="Clear"></div>
                 </ul>
-                <div>
+                <div class="float_left">
                     <img src="images/layout1_head_zoom.jpg" />
                 </div>
             </header>
@@ -44,18 +64,62 @@
                     <section>
                         <h3>Web Design</h3>
                         <div class="content_part">
-                        <img src="" />
-                        <dl>
-                            <dt>Lorem ipsum dolor sit amet</dt>
-                            <dd>
-                                Consectetur adipiscing elit. 
-                                Suspendisse sed leo tellus. Praesent 
-                                nec vehicula ligula, non laoreet ligula. 
-                                Maecenas at massa eget orci porttitor 
-                                semper.
-                            </dd>
-                        </dl>
-                    </div>    
+                            <img src="images/untitled.png" />
+                            <dl>
+                                <dt>Lorem ipsum dolor sit amet</dt>
+                                <dd>
+                                    Consectetur adipiscing elit. 
+                                    Suspendisse sed leo tellus. Praesent 
+                                    nec vehicula ligula, non laoreet ligula. 
+                                    Maecenas at massa eget orci porttitor 
+                                    semper.
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="content_part">
+                            <img src="images/untitled.png" />
+                            <dl>
+                                <dt>Lorem ipsum dolor sit amet</dt>
+                                <dd>
+                                    Consectetur adipiscing elit. 
+                                    Suspendisse sed leo tellus. Praesent 
+                                    nec vehicula ligula, non laoreet ligula. 
+                                    Maecenas at massa eget orci porttitor 
+                                    semper.
+                                </dd>
+                            </dl>
+                        </div>        
+                    </section>
+                </div>
+                <div class="container">
+                    <section>
+                        <h3>Web Design</h3>
+                        <div class="content_part">
+                            <img src="images/untitled.png" />
+                            <dl>
+                                <dt>Lorem ipsum dolor sit amet</dt>
+                                <dd>
+                                    Consectetur adipiscing elit. 
+                                    Suspendisse sed leo tellus. Praesent 
+                                    nec vehicula ligula, non laoreet ligula. 
+                                    Maecenas at massa eget orci porttitor 
+                                    semper.
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="content_part">
+                            <img src="images/untitled.png" />
+                            <dl>
+                                <dt>Lorem ipsum dolor sit amet</dt>
+                                <dd>
+                                    Consectetur adipiscing elit. 
+                                    Suspendisse sed leo tellus. Praesent 
+                                    nec vehicula ligula, non laoreet ligula. 
+                                    Maecenas at massa eget orci porttitor 
+                                    semper.
+                                </dd>
+                            </dl>
+                        </div>        
                     </section>
                 </div>
             </div>
