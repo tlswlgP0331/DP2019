@@ -9,6 +9,12 @@
                 /* border: solid 1px black; */
                 /* 경계선: 실선 1픽셀두께 검은색; */
             }
+            header{
+                padding: 30px;
+            }
+            nav{
+                padding: 30px;
+            }
             h1{
                 margin: 0px;
             }
@@ -84,6 +90,18 @@
             }
             .container dd{
                 margin: 25px 0px; /* 바깥여백 : 없음 */
+            }
+            footer li{
+                float:left;
+                list-style: none;
+                padding: 0px 10px;
+            }
+            footer ul{
+                padding: 0px;
+            }
+            footer{
+                background-color: #999;     
+                padding: 30px; 
             }
         </style>
     </head>
@@ -250,7 +268,7 @@
                 </div>
             </div>
             <footer>
-                <div>
+                <div class="float_left">
                     <ul>
                         <li>Home</li>
                         <li>About</li>
@@ -258,6 +276,7 @@
                         <li>Work</li>
                         <li>Blog</li>
                         <li>Contact us</li>
+                        <div class="Clear"></div>
                     </ul>
                     <div>ⓒ 2013 BlueBox. All Right Reserved.</div>
                     <div>
@@ -265,14 +284,16 @@
                         of their respective owners/copyright holders.
                     </div>
                 </div>    
-                <ul>
+                <ul class="float_right">
                     <li><img src="images/layout1_footer_icon1.png" /></li>
                     <li><img src="images/layout1_footer_icon2.png" /></li>
                     <li><img src="images/layout1_footer_icon3.png" /></li>
                     <li><img src="images/layout1_footer_icon4.png" /></li>
                     <li><img src="images/layout1_footer_icon5.png" /></li>
                     <li><img src="images/layout1_footer_icon6.png" /></li>
+                    <div class="Clear"></div>    
                 </ul>
+                <div class="Clear"></div> 
             </footer>
         </div>
     </body>
